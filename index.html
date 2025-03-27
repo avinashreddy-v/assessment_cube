@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcami Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Alcami Elements</h1>
+            <input type="text" placeholder="Search elements..." id="search-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#elements">Elements</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#compare">Compare</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="welcome" class="flex-container">
+        <div class="image-container"><img src="assets/home.jpg" class="responsive-img"></div>
+        <div class="text-container">
+            <h2>Welcome to Alcami Elements</h2>
+            <p>Discover the finest elements that enhance various applications and industries.</p>
+        </div>
+    </section>
+    
+    <section id="elements" class="flex-container">
+        <div class="image-container"><img src="assets/benefits.jpg" class="responsive-img"></div>
+        <div class="text-container">
+            <h2>Elements Available</h2>
+            <p>We offer a wide range of elements for scientific and industrial use.</p>
+        </div>
+    </section>
+    
+    <section id="popular">
+        <h2>Most Popular Elements</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="assets/product-1.jpg" alt="Element 1" class="responsive-img">
+                <h3>Element 1</h3>
+                <p>Price: $50.99</p>
+                <p>Usage: Conductivity, chemical reactions</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/product-2.jpg" alt="Element 2" class="responsive-img">
+                <h3>Element 2</h3>
+                <p>Price: $30.99</p>
+                <p>Usage: High durability, structural support</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="compare" class="flex-container">
+        <div class="image-container"><img src="assets/compare.jpg" class="responsive-img"></div>
+        <div class="text-container">
+            <h2>Compare Our Elements</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Our Site</th>
+                    <th>Other Sites</th>
+                </tr>
+                <tr>
+                    <td>High Purity</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Certified Quality</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Affordable Pricing</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Fast Delivery</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>No caffine</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Ingredients taste</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>No starch</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>100% pure fruiting body</td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <section id="about" class="flex-container">
+        <div class="image-container"><img src="assets/founder-1.jpg" alt="Founder" class="responsive-img"></div>
+        <div class="text-container">
+            <h2>Meet the Founder</h2>
+            <p>Our founder, a leading expert in elements, ensures the highest quality for industrial and scientific use.</p>
+            <p>With over 20 years of experience in the field, our founder has contributed to multiple breakthrough research projects and innovations.</p>
+        </div>
+    </section>
+    
+    <section id="reviews" class="bg-gray-100 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">What our customers are saying</h3>
+            <p class="text-gray-600 mb-8">Real people, real reviews.</p>
+            <div class="relative w-4/5 mx-auto overflow-hidden">
+                <div class="flex space-x-6 transition-transform duration-500" id="testimonial-slider">
+                    <div class="bg-white p-6 rounded-lg shadow-md flex-none w-1/3">
+                        <div class="flex items-center mb-4">
+                            <div class="text-green-500 text-xl">★★★★★</div>
+                        </div>
+                        <p class="text-gray-700">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="mt-4 flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div class="ml-4">
+                                <p class="font-semibold">Name Surname</p>
+                                <p class="text-sm text-gray-500">Position, Company name</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md flex-none w-1/3">
+                        <div class="flex items-center mb-4">
+                            <div class="text-green-500 text-xl">★★★★★</div>
+                        </div>
+                        <p class="text-gray-700">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="mt-4 flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div class="ml-4">
+                                <p class="font-semibold">Name Surname</p>
+                                <p class="text-sm text-gray-500">Position, Company name</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md flex-none w-1/3">
+                        <div class="flex items-center mb-4">
+                            <div class="text-green-500 text-xl">★★★★★</div>
+                        </div>
+                        <p class="text-gray-700">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="mt-4 flex items-center">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div class="ml-4">
+                                <p class="font-semibold">Name Surname</p>
+                                <p class="text-sm text-gray-500">Position, Company name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-6">
+                    <button id="prev" class="p-2 rounded-full bg-gray-300 mr-2">←</button>
+                    <button id="next" class="p-2 rounded-full bg-gray-300">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faqs">
+        <h3>FAQs</h3>
+        <div class="faq-container">
+            <details>
+                <summary>What makes your elements special?</summary>
+                <p>Our elements are laboratory-tested and sourced from trusted suppliers.</p>
+            </details>
+            <details>
+                <summary>Do you offer bulk discounts?</summary>
+                <p>Yes, we offer special pricing for bulk orders. Contact our sales team for more details.</p>
+            </details>
+            <details>
+                <summary>How fast is shipping?</summary>
+                <p>We offer fast and reliable shipping within 3-5 business days.</p>
+            </details>
+        </div>
+    </section>
+    
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: support@alcamielements.com | Phone: +123 456 7890</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
